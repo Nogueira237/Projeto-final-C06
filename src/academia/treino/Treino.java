@@ -20,4 +20,11 @@ public class Treino {
         Exercicio exercicio = new Exercicio(nome, series, repeticoes);
         exercicios.add(exercicio);
     };
+
+    public void listarExercicios(){                                                    // metodo para listar os exercicios do treino
+        System.out.println("Treino: " + nome);
+        for(Exercicio e : exercicios){              // para cada instancia 'e' do tipo Exercicio na lista 'exercicios', é feito um sout [nome|series|repeticoes]
+            System.out.println("Exercício: " + e.getNome() + '\n' + "Séries: " + e.getSeries() + '\n' + "Repetições: " + e.getRepeticoes() + '\n');
+        };
+    };
 }
