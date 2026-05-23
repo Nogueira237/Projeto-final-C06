@@ -2,6 +2,7 @@ package academia.pessoas;
 
 import academia.planos.Plano;
 import academia.pagamentos.Pagavel;
+import academia.treino.Treino;
 
 public class Aluno extends Pessoa{
 
@@ -11,6 +12,7 @@ public class Aluno extends Pessoa{
     private double altura;
     private Plano plano;
     private Pagavel pagamento;
+    private Treino treino;
 
     // Construtor
     public Aluno(String nome, String cpf, int idade, int matricula, double peso, double altura, Plano plano, Pagavel pagamento){
@@ -20,12 +22,14 @@ public class Aluno extends Pessoa{
         this.altura = altura;
         this.plano = plano;
         this.pagamento = pagamento;
-
     };
 
     // Metodos
     public double calcularIMC(){
         return (peso/(altura*altura));
+    };
+    public void adicionarTreino(Treino treino){         // funcao para o personal adicionar um treino
+        this.treino = treino;
     };
 
     @Override

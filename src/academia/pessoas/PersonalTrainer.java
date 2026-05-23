@@ -1,5 +1,7 @@
 package academia.pessoas;
 
+import academia.treino.Treino;
+
 public class PersonalTrainer extends Funcionario{
 
     // Atributos
@@ -12,7 +14,9 @@ public class PersonalTrainer extends Funcionario{
     };
 
     // Metodos
-    //public Treino montarTreino(){};       CRIAR CLASSE TREINO
+    public void montarTreino(Aluno aluno, Treino treino){       // funcao para o personal adicionar o treino do aluno
+        aluno.adicionarTreino(treino);
+    };
 
     @Override
     public void exibirInfo(){
