@@ -30,7 +30,15 @@ public class Aluno extends Pessoa{
 
     @Override
     public void exibirInfo(){
-        System.out.println("Nome: " + getNome() + '\n' + "cpf: " + getCpf() + '\n' + "Idade: " + getIdade() + '\n' + "Matrícula: " + matricula + '\n' + "Peso: " + peso + '\n' + "Altura: " + altura + '\n');
+        System.out.println("Nome: " + getNome() + '\n' + "CPF: " + getCpf() + '\n' + "Idade: " + getIdade() + '\n' + "Matrícula: " + matricula + '\n' + "Peso: " + peso + '\n' + "Altura: " + altura + '\n');
+    };
+
+    // Getters
+    public Plano getPlano() {
+        return plano;
+    };
+    public Pagavel getPagamento() {
+        return pagamento;
     };
 
 }
