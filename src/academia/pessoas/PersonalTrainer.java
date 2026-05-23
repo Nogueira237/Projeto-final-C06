@@ -16,7 +16,7 @@ public class PersonalTrainer extends Funcionario{
 
     @Override
     public void exibirInfo(){
-        System.out.println("Nome: " + getNome() + '\n' + "cpf: " + getCpf() + '\n' + "Idade: " + getIdade() + '\n' + "Salário: " + getSalario() + '\n' + "Cref: " + cref);
+        System.out.println("Nome: " + getNome() + '\n' + "cpf: " + getCpf() + '\n' + "Idade: " + getIdade() + '\n' + "Salário: " + getSalario() + '\n' + "Cref: " + cref + '\n');
     };
 
 }

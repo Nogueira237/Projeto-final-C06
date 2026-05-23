@@ -14,7 +14,7 @@ public class Funcionario extends Pessoa{
     // Metodos
     @Override
     public void exibirInfo(){
-        System.out.println("Nome: " + getNome() + '\n' + "cpf: " + getCpf() + '\n' + "Idade: " + getIdade() + '\n' + "Salário: " + salario);
+        System.out.println("Nome: " + getNome() + '\n' + "cpf: " + getCpf() + '\n' + "Idade: " + getIdade() + '\n' + "Salário: " + salario + '\n');
     };
 
     // Getters
