@@ -33,4 +33,4 @@ public class Aluno extends Pessoa{
         System.out.println("Nome: " + getNome() + '\n' + "cpf: " + getCpf() + '\n' + "Idade: " + getIdade() + '\n' + "Matrícula: " + matricula + '\n' + "Peso: " + peso + '\n' + "Altura: " + altura);
     };
 
-};
+}

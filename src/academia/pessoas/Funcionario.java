@@ -22,4 +22,4 @@ public class Funcionario extends Pessoa{
         return salario;
     };
 
-};
+}

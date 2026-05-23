@@ -19,4 +19,4 @@ public class PersonalTrainer extends Funcionario{
         System.out.println("Nome: " + getNome() + '\n' + "cpf: " + getCpf() + '\n' + "Idade: " + getIdade() + '\n' + "Salário: " + getSalario() + '\n' + "Cref: " + cref);
     };
 
-};
+}
