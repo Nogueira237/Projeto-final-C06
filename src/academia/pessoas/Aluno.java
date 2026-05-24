@@ -15,13 +15,14 @@ public class Aluno extends Pessoa{
     private Treino treino;
 
     // Construtor
-    public Aluno(String nome, String cpf, int idade, int matricula, double peso, double altura, Plano plano, Pagavel pagamento){
+    public Aluno(String nome, String cpf, int idade, int matricula, double peso, double altura, Plano plano, Pagavel pagamento, Treino treino){
         super(nome, cpf, idade);
         this.matricula = matricula;
         this.peso = peso;
         this.altura = altura;
         this.plano = plano;
         this.pagamento = pagamento;
+        this.treino = treino;
     };
 
     // Metodos
@@ -38,11 +39,24 @@ public class Aluno extends Pessoa{
     };
 
     // Getters
+
+    public int getMatricula() {
+        return matricula;
+    };
+    public double getPeso() {
+        return peso;
+    };
+    public double getAltura() {
+        return altura;
+    };
     public Plano getPlano() {
         return plano;
     };
     public Pagavel getPagamento() {
         return pagamento;
+    };
+    public Treino getTreino() {
+        return treino;
     };
 
 }

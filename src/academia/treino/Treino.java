@@ -27,4 +27,9 @@ public class Treino {
             System.out.println("Exercício: " + e.getNome() + '\n' + "Séries: " + e.getSeries() + '\n' + "Repetições: " + e.getRepeticoes() + '\n');
         };
     };
+
+    // Getters
+    public String getNome() {
+        return nome;
+    };
 }

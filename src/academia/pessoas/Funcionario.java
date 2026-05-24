@@ -17,9 +17,12 @@ public class Funcionario extends Pessoa{
         System.out.println("Nome: " + getNome() + '\n' + "cpf: " + getCpf() + '\n' + "Idade: " + getIdade() + '\n' + "Salário: " + salario + '\n');
     };
 
-    // Getters
+    // Getters e setters
     public double getSalario(){
         return salario;
     };
 
+    public void setSalario(double salario) {
+        this.salario = salario;
+    }
 }
