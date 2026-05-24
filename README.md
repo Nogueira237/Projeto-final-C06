@@ -15,8 +15,8 @@ Resposta:<br/>
 <img width="696" height="707" alt="image" src="https://github.com/user-attachments/assets/07bddcb6-882c-45d2-b812-98184ef59e82" /><br/>
 <img width="761" height="225" alt="image" src="https://github.com/user-attachments/assets/f3e61f24-79d7-4a64-926e-df7c92477920" /><br/>
 
-2. Métodos DAO<br/>
-- Todos, exceto ConnectionDAO e AlunoDAO, foram gerados pelo chatGPT, com base no método AlunoDAO<br/>
+2. Classes DAO<br/>
+- Todos, exceto ConnectionDAO e AlunoDAO, foram gerados pelo chatGPT, com base na classe AlunoDAO<br/>
 <img width="923" height="795" alt="image" src="https://github.com/user-attachments/assets/969093c4-d6f4-4a57-b199-80bd33c8f88c" /><br/>
 <img width="800" height="841" alt="image" src="https://github.com/user-attachments/assets/d47023fb-4416-4634-96fe-2aa5b782c73c" /><br/>
 <img width="796" height="839" alt="image" src="https://github.com/user-attachments/assets/d7ddd1c0-8f25-4281-982d-5a5900c3b0dc" /><br/>
