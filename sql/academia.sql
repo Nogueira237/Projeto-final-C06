@@ -67,7 +67,7 @@ CREATE TABLE IF NOT EXISTS treino (
 -- =========================================
 -- TABELA ALUNO
 -- =========================================
-CREATE TABLE aluno (
+CREATE TABLE IF NOT EXISTS aluno (
     id INT PRIMARY KEY,
     matricula INT UNIQUE NOT NULL,
     peso DOUBLE,
@@ -121,14 +121,11 @@ CREATE TABLE IF NOT EXISTS equipamento (
 
 ALTER TABLE treino ADD UNIQUE (nome);
 
--- SELECT * FROM pessoa;
--- SELECT * FROM aluno;
--- SELECT p.*, a.* FROM pessoa p LEFT JOIN aluno a ON p.id = a.id;
 -- reset no BD
-SET SQL_SAFE_UPDATES = 0;
-DELETE FROM equipamento;
-DELETE FROM treino;
-DELETE FROM aluno;
-DELETE FROM pessoa;
+-- SET SQL_SAFE_UPDATES = 0;
+-- DELETE FROM equipamento;
+-- DELETE FROM treino;
+-- DELETE FROM aluno;
+-- DELETE FROM pessoa;
 -- DESCRIBE aluno;
 -- DROP TABLE aluno;
