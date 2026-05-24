@@ -27,6 +27,13 @@ Resposta:<br/>
 <img width="634" height="840" alt="image" src="https://github.com/user-attachments/assets/208dfc64-1fe4-4226-a64a-afd9f23b1b33" /><br/>
 <img width="897" height="286" alt="image" src="https://github.com/user-attachments/assets/44f697cb-79c5-467b-8e00-789bc563285d" /><br/>
 
+4. Erro no select(mesmo existindo instâncias de aluno, esses não apareciam ao usar o método selectAluno)<br/>
+- Correção pelo chatGPT<br/>
+<img width="831" height="416" alt="image" src="https://github.com/user-attachments/assets/17666906-0242-4601-957b-4321c0629508" /><br/>
+<img width="835" height="429" alt="image" src="https://github.com/user-attachments/assets/568ea9ef-6e86-4334-907f-1627e5648548" /><br/>
+
+
+
 
 
 
