@@ -2,7 +2,8 @@
 -- BANCO DE DADOS - SOFTWARE DE GERENCIAMENTO DE ACADEMIA
 -- =========================================
 
--- CREATE DATABASE IF NOT EXISTS academia;
+-- DROP DATABASE academia;
+CREATE DATABASE IF NOT EXISTS academia;
 USE academia;
 
 -- =========================================
