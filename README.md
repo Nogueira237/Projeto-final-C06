@@ -6,7 +6,7 @@ Pablo Teixeira Villela dos Santos – 598 GES
 
 ========== Tutorial ==========
 1. Crie uma nova Connection com o nome "academia".<br/><br/>
-<img width="263" height="51" alt="image" src="https://github.com/user-attachments/assets/46e253c2-b384-4aee-8d0e-5c65b5e47a9e" /><br/>
+<img width="263" height="51" alt="image" src="https://github.com/user-attachments/assets/9f9e8e8d-61ab-455f-9e91-f2a54a93aa3f" /><br/>
 
 2. Não é necessário alterar nada além do nome.<br/><br/>
 <img width="788" height="496" alt="image" src="https://github.com/user-attachments/assets/50b051c9-5e35-4d1d-baf6-698214c7fe13" /><br/>
