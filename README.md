@@ -36,7 +36,7 @@ Anteriormente era "SELECT * FROM pessoa INNER JOIN aluno ON pessoa.id = aluno.id
 5. Ao atualizar a tabela funcionario, a pessoa(superclasse) deveria ser atualizada junto, porém não estava atualizando<br/><br/>
 <img width="727" height="756" alt="gptAtualizar pessoa alem de funcionario" src="https://github.com/user-attachments/assets/9577cde3-4b27-43b7-8afd-b3ec70af8716" /><br/>
 
-6. Para economizar tempo, depois de fazer manualmente o código de update da classe/tabela aluno, o chatGPT gerou os códigos de update para as outras tabelas<br/><br/>
+6. Para economizar tempo, depois de fazer manualmente o código de update da classe/tabela aluno, o chatGPT gerou os códigos de update para as outras tabelas, o mesmo foi feito com os comandos delete/select<br/><br/>
 <img width="530" height="821" alt="gptGeração de Update" src="https://github.com/user-attachments/assets/24340de8-4915-4e35-bdd8-a5e580b64357" /><br/>
 
 7. O chatGPT sugeriu a inserção do atributo id nas classes Equipamento, Funcionario e Treino, para tornar mais fácil o update/delete dos dados<br/><br/>
