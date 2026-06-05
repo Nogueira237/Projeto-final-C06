@@ -33,6 +33,21 @@ Resposta:<br/>
 Anteriormente era "SELECT * FROM pessoa INNER JOIN aluno ON pessoa.id = aluno.id"
 <img width="835" height="429" alt="image" src="https://github.com/user-attachments/assets/568ea9ef-6e86-4334-907f-1627e5648548" /><br/>
 
+5. Ao atualizar a tabela funcionario, a pessoa(superclasse) deveria ser atualizada junto, porém não estava atualizando<br/>
+<img width="727" height="756" alt="gptAtualizar pessoa alem de funcionario" src="https://github.com/user-attachments/assets/9577cde3-4b27-43b7-8afd-b3ec70af8716" /><br/>
+
+6. Para economizar tempo, depois de fazer manualmente o código de update da classe/tabela aluno, o chatGPT gerou os códigos de update para as outras tabelas<br/>
+<img width="530" height="821" alt="gptGeração de Update" src="https://github.com/user-attachments/assets/24340de8-4915-4e35-bdd8-a5e580b64357" /><br/>
+
+7. O chatGPT sugeriu a inserção do atributo id nas classes Equipamento, Funcionario e Treino, para tornar mais fácil o update/delete dos dados<br/>
+<img width="904" height="749" alt="gptIDnasclassesquetemtabela" src="https://github.com/user-attachments/assets/c8219780-a875-41cd-97ac-bfddc3ffac59" /><br/>
+
+8. Mostrar as opções de exercícios ao criar um novo treino<br/>
+<img width="710" height="812" alt="gptOPCOESDEEXERCICIO" src="https://github.com/user-attachments/assets/5e9d124a-c5b2-4e7b-88eb-329990b018ba" /><br/>
+
+
+
+
 
 
 
