@@ -11,7 +11,7 @@ Pablo Teixeira Villela dos Santos – 598 GES
 2. Não é necessário alterar nada além do nome.<br/><br/>
 <img width="788" height="496" alt="image" src="https://github.com/user-attachments/assets/50b051c9-5e35-4d1d-baf6-698214c7fe13" /><br/>
 
-3. Ao entrar na connection, vá em file -> Open SQL Script<br/><br/>
+3. Ao entrar na connection, vá em file -> Open SQL Script.<br/><br/>
 <img width="263" height="311" alt="image" src="https://github.com/user-attachments/assets/37c7389c-56b3-4ef6-add7-888242f4bb13" /><br/>
 
 4. Selecione o arquivo .sql, que se encontra dentro da pasta "sql" do projeto.<br/><br/>
@@ -26,7 +26,7 @@ Pablo Teixeira Villela dos Santos – 598 GES
 7. Agora clique em Modules -> Dependencies, e depois no botão "+".<br/><br/>
 <img width="663" height="243" alt="image" src="https://github.com/user-attachments/assets/121f82a3-d0b3-47a9-8c11-e2127f728a1c" /><br/>
 
-8. Agora escolha "JARs or Directories..."<br/><br/>
+8. Agora escolha "JARs or Directories...".<br/><br/>
 <img width="202" height="123" alt="image" src="https://github.com/user-attachments/assets/5bf0b847-effc-46d4-8cd3-18f5f9217632" /><br/>
 
 9. Selecione o arquivo .jar que se encontra dentro da pasta "lib".<br/><br/>
