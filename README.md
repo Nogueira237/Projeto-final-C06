@@ -23,7 +23,7 @@ Pablo Teixeira Villela dos Santos – 598 GES
 6. Após abrir o projeto no IntelliJ, clique em File -> Project Structure.<br/><br/>
 <img width="339" height="305" alt="image" src="https://github.com/user-attachments/assets/d0398ce0-f40d-4c2f-adc1-7c142561440d" /><br/>
 
-7. Agora em clique em Modules -> Dependencies, e depois no botão "+".<br/><br/>
+7. Agora clique em Modules -> Dependencies, e depois no botão "+".<br/><br/>
 <img width="663" height="243" alt="image" src="https://github.com/user-attachments/assets/121f82a3-d0b3-47a9-8c11-e2127f728a1c" /><br/>
 
 8. Agora escolha "JARs or Directories..."<br/><br/>
@@ -36,6 +36,7 @@ Pablo Teixeira Villela dos Santos – 598 GES
 <img width="1025" height="704" alt="image" src="https://github.com/user-attachments/assets/82ab149e-cf5e-4bf1-a87a-4c9dabd862ff" /><br/>
 <br/>
 Agora o programa está pronto para ser rodado.<br/>
+<br/>
 
 ========== USO DE IA ==========<br/>
 
