@@ -20,7 +20,22 @@ Pablo Teixeira Villela dos Santos – 598 GES
 5. Por fim, execute o script uma vez.<br/><br/>
 <img width="600" height="50" alt="image" src="https://github.com/user-attachments/assets/dd473c40-01fb-479c-be8e-54b757e88b59" /><br/>
 
-6. Com a conexão feita, você pode rodar o programa na sua IDE (o projeto foi desenvolvido no IntelliJ).<br/><br/>
+6. Após abrir o projeto no IntelliJ, clique em File -> Project Structure.<br/><br/>
+<img width="339" height="305" alt="image" src="https://github.com/user-attachments/assets/d0398ce0-f40d-4c2f-adc1-7c142561440d" /><br/>
+
+7. Agora em clique em Modules -> Dependencies, e depois no botão "+".<br/><br/>
+<img width="663" height="243" alt="image" src="https://github.com/user-attachments/assets/121f82a3-d0b3-47a9-8c11-e2127f728a1c" /><br/>
+
+8. Agora escolha "JARs or Directories..."<br/><br/>
+<img width="202" height="123" alt="image" src="https://github.com/user-attachments/assets/5bf0b847-effc-46d4-8cd3-18f5f9217632" /><br/>
+
+9. Selecione o arquivo .jar que se encontra dentro da pasta "lib".<br/><br/>
+<img width="1023" height="570" alt="image" src="https://github.com/user-attachments/assets/05630acc-ff5b-4d60-bd9b-31dc7edac32a" /><br/>
+
+10. Por fim, clique em OK.<br/><br/>
+<img width="1025" height="704" alt="image" src="https://github.com/user-attachments/assets/82ab149e-cf5e-4bf1-a87a-4c9dabd862ff" /><br/>
+<br/>
+Agora o programa está pronto para ser rodado.<br/>
 
 ========== USO DE IA ==========<br/>
 
