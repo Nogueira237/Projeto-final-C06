@@ -7,7 +7,7 @@ Pablo Teixeira Villela dos Santos – 598 GES
 ========== USO DE IA ==========<br/>
 
 1. correção do método selectAluno<br/>
-- foi enviado o método ao chatGPT<br/>
+- foi enviado o método ao chatGPT<br/><br/>
 Resposta:<br/>
 <img width="712" height="657" alt="image" src="https://github.com/user-attachments/assets/7bca9514-e5d9-4c90-b828-5915fd24a86c" /><br/>
 <img width="727" height="684" alt="image" src="https://github.com/user-attachments/assets/1a7bf140-50a8-4288-9576-0ea949b304a9" /><br/>
@@ -16,33 +16,33 @@ Resposta:<br/>
 <img width="761" height="225" alt="image" src="https://github.com/user-attachments/assets/f3e61f24-79d7-4a64-926e-df7c92477920" /><br/>
 
 2. Classes DAO<br/>
-- Todos, exceto ConnectionDAO e AlunoDAO, foram gerados pelo chatGPT, com base na classe AlunoDAO<br/>
+- Todos, exceto ConnectionDAO e AlunoDAO, foram gerados pelo chatGPT, com base na classe AlunoDAO<br/><br/>
 <img width="923" height="795" alt="image" src="https://github.com/user-attachments/assets/969093c4-d6f4-4a57-b199-80bd33c8f88c" /><br/>
 <img width="800" height="841" alt="image" src="https://github.com/user-attachments/assets/d47023fb-4416-4634-96fe-2aa5b782c73c" /><br/>
 <img width="796" height="839" alt="image" src="https://github.com/user-attachments/assets/d7ddd1c0-8f25-4281-982d-5a5900c3b0dc" /><br/>
 
 3. Erro de duplicação de CPF<br/>
-- Erro ao inserir pessoa: Duplicate entry '12345678900' for key 'pessoa.cpf'<br/>
+- Erro ao inserir pessoa: Duplicate entry '12345678900' for key 'pessoa.cpf'<br/><br/>
 <img width="774" height="716" alt="image" src="https://github.com/user-attachments/assets/107a6e26-3225-468c-970a-d6a4579e7461" /><br/>
 <img width="634" height="840" alt="image" src="https://github.com/user-attachments/assets/208dfc64-1fe4-4226-a64a-afd9f23b1b33" /><br/>
 <img width="897" height="286" alt="image" src="https://github.com/user-attachments/assets/44f697cb-79c5-467b-8e00-789bc563285d" /><br/>
 
 4. Erro no select(mesmo existindo instâncias de aluno, esses não apareciam ao usar o método selectAluno)<br/>
-- Correção pelo chatGPT<br/>
+- Correção pelo chatGPT<br/><br/>
 <img width="831" height="416" alt="image" src="https://github.com/user-attachments/assets/17666906-0242-4601-957b-4321c0629508" /><br/>
 Anteriormente era "SELECT * FROM pessoa INNER JOIN aluno ON pessoa.id = aluno.id"
 <img width="835" height="429" alt="image" src="https://github.com/user-attachments/assets/568ea9ef-6e86-4334-907f-1627e5648548" /><br/>
 
-5. Ao atualizar a tabela funcionario, a pessoa(superclasse) deveria ser atualizada junto, porém não estava atualizando<br/>
+5. Ao atualizar a tabela funcionario, a pessoa(superclasse) deveria ser atualizada junto, porém não estava atualizando<br/><br/>
 <img width="727" height="756" alt="gptAtualizar pessoa alem de funcionario" src="https://github.com/user-attachments/assets/9577cde3-4b27-43b7-8afd-b3ec70af8716" /><br/>
 
-6. Para economizar tempo, depois de fazer manualmente o código de update da classe/tabela aluno, o chatGPT gerou os códigos de update para as outras tabelas<br/>
+6. Para economizar tempo, depois de fazer manualmente o código de update da classe/tabela aluno, o chatGPT gerou os códigos de update para as outras tabelas<br/><br/>
 <img width="530" height="821" alt="gptGeração de Update" src="https://github.com/user-attachments/assets/24340de8-4915-4e35-bdd8-a5e580b64357" /><br/>
 
-7. O chatGPT sugeriu a inserção do atributo id nas classes Equipamento, Funcionario e Treino, para tornar mais fácil o update/delete dos dados<br/>
+7. O chatGPT sugeriu a inserção do atributo id nas classes Equipamento, Funcionario e Treino, para tornar mais fácil o update/delete dos dados<br/><br/>
 <img width="904" height="749" alt="gptIDnasclassesquetemtabela" src="https://github.com/user-attachments/assets/c8219780-a875-41cd-97ac-bfddc3ffac59" /><br/>
 
-8. Mostrar as opções de exercícios ao criar um novo treino<br/>
+8. Mostrar as opções de exercícios ao criar um novo treino<br/><br/>
 <img width="710" height="812" alt="gptOPCOESDEEXERCICIO" src="https://github.com/user-attachments/assets/5e9d124a-c5b2-4e7b-88eb-329990b018ba" /><br/>
 
 
