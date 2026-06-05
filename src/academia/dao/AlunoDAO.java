@@ -44,7 +44,6 @@ public class AlunoDAO extends PessoaDAO{
             pst.setString(6, aluno.getPagamento().getTipo());
             pst.setString(7, aluno.getTreino().getNome());
             pst.execute();
-            System.out.println("Aluno inserido com sucesso!");
             return true;
 
         } catch(SQLException e){

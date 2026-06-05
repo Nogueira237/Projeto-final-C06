@@ -31,7 +31,6 @@ public class FuncionarioDAO extends PessoaDAO {
             pst.setDouble(2, funcionario.getSalario());
             pst.execute();
 
-            System.out.println("Funcionário inserido com sucesso!");
             return true;
 
         } catch(SQLException e){

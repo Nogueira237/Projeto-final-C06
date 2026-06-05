@@ -18,7 +18,6 @@ public class EquipamentoDAO extends ConnectionDAO {
             pst.setString(2, equipamento.getStatus());
             pst.execute();
 
-            System.out.println("Equipamento inserido com sucesso!");
             return true;
 
         } catch(SQLException e){

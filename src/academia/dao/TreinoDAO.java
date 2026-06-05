@@ -56,7 +56,6 @@ public class TreinoDAO extends ConnectionDAO {
                 pstEx.close();
             }
 
-            System.out.println("Treino inserido com sucesso!");
             return true;
 
         } catch (SQLException e) {
