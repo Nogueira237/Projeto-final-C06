@@ -5,7 +5,7 @@ Eduardo Nogueira Belarmino – 597 GES<br/>
 Pablo Teixeira Villela dos Santos – 598 GES
 
 ========== Tutorial ==========
-1. Crie uma nova Connection com o nome "academia".<br/><br/>
+1. No MySQL Workbench, crie uma nova Connection com o nome "academia".<br/><br/>
 <img width="263" height="51" alt="image" src="https://github.com/user-attachments/assets/9f9e8e8d-61ab-455f-9e91-f2a54a93aa3f" /><br/>
 
 2. Não é necessário alterar nada além do nome.<br/><br/>
