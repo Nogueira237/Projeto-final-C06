@@ -4,6 +4,24 @@ Software para gerenciamento de academia<br/>
 Eduardo Nogueira Belarmino – 597 GES<br/>
 Pablo Teixeira Villela dos Santos – 598 GES
 
+========== Tutorial ==========
+1. Crie uma nova Connection com o nome "academia".<br/><br/>
+<img width="263" height="51" alt="image" src="https://github.com/user-attachments/assets/9f9e8e8d-61ab-455f-9e91-f2a54a93aa3f" /><br/>
+
+2. Não é necessário alterar nada além do nome.<br/><br/>
+<img width="788" height="496" alt="image" src="https://github.com/user-attachments/assets/50b051c9-5e35-4d1d-baf6-698214c7fe13" /><br/>
+
+3. Ao entrar na connection, vá em file -> Open SQL Script<br/><br/>
+<img width="263" height="311" alt="image" src="https://github.com/user-attachments/assets/37c7389c-56b3-4ef6-add7-888242f4bb13" /><br/>
+
+4. Selecione o arquivo .sql, que se encontra dentro da pasta "sql" do projeto.<br/><br/>
+<img width="1066" height="596" alt="image" src="https://github.com/user-attachments/assets/0f296785-e90f-4c9a-97df-16d994a51dc2" /><br/>
+
+5. Por fim, execute o script uma vez.<br/><br/>
+<img width="600" height="50" alt="image" src="https://github.com/user-attachments/assets/dd473c40-01fb-479c-be8e-54b757e88b59" /><br/>
+
+6. Com a conexão feita, você pode rodar o programa na sua IDE (o projeto foi desenvolvido no IntelliJ).<br/><br/>
+
 ========== USO DE IA ==========<br/>
 
 1. correção do método selectAluno<br/>
