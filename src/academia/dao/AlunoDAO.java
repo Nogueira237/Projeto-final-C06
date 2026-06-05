@@ -10,6 +10,7 @@ import academia.planos.PlanoAnual;
 import academia.planos.PlanoMensal;
 import academia.treino.Treino;
 
+import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 
@@ -61,37 +62,40 @@ public class AlunoDAO extends PessoaDAO{
         }
     }
 
-    public boolean updateAluno(int id, Aluno aluno){
+    public boolean updateAluno(int id, Aluno aluno) {
+
         connectToDb();
 
-        String sql = "UPDATE aluno SET matricula = ?, peso = ?, altura = ?, tipo_plano = ?, tipo_pagamento = ?, nome_treino = ? WHERE id = ?";
+        try {
 
-        try{
-            pst = connection.prepareStatement(sql);
+            // 1 - atualiza pessoa
+            String sqlPessoa = "UPDATE pessoa SET nome = ?, cpf = ?, idade = ? WHERE id = ?";
+            pst = connection.prepareStatement(sqlPessoa);
+            pst.setString(1, aluno.getNome());
+            pst.setString(2, aluno.getCpf());
+            pst.setInt(3, aluno.getIdade());
+            pst.setInt(4, id);
+            pst.executeUpdate();
+
+            // 2 - atualiza aluno
+            String sqlAluno = "UPDATE aluno SET matricula = ?, peso = ?, altura = ?, tipo_plano = ?, tipo_pagamento = ?, nome_treino = ? WHERE id = ?";
+            pst = connection.prepareStatement(sqlAluno);
+
             pst.setInt(1, aluno.getMatricula());
             pst.setDouble(2, aluno.getPeso());
             pst.setDouble(3, aluno.getAltura());
             pst.setString(4, aluno.getPlano().getTipo());
             pst.setString(5, aluno.getPagamento().getTipo());
             pst.setString(6, aluno.getTreino().getNome());
-            // id do aluo que será atualizado
             pst.setInt(7, id);
-            pst.execute();
-            System.out.println("Aluno atualizado com sucesso!");
+
+            pst.executeUpdate();
+
             return true;
 
-        } catch(SQLException e){
+        } catch (SQLException e) {
             System.out.println("Erro ao atualizar aluno: " + e.getMessage());
             return false;
-
-        } finally{
-            // SEMPRE EXECUTA - libera recursos na ordem correta
-            try{
-                if (pst != null) pst.close();       // fecha statment primeiro
-                if (connection != null) connection.close(); // depois fecha connection
-            } catch (SQLException e) {
-                System.out.println("Erro ao fechar recursos: " + e.getMessage());
-            }
         }
     }
 

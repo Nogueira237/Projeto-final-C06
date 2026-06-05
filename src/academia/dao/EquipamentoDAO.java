@@ -95,7 +95,7 @@ public class EquipamentoDAO extends ConnectionDAO {
         ArrayList<Equipamento> equipamentos = new ArrayList<>();
         connectToDb();
 
-        String sql = "SELECT * FROM equipamento";
+        String sql = "SELECT id, nome, status FROM equipamento";
 
         try{
             st = connection.createStatement();
@@ -108,6 +108,7 @@ public class EquipamentoDAO extends ConnectionDAO {
                         rs.getString("status")
                 );
 
+                equipamento.setId(rs.getInt("id"));
                 equipamentos.add(equipamento);
             }
 

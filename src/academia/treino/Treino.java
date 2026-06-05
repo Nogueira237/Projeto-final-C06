@@ -6,6 +6,7 @@ import java.util.List;
 public class Treino {
 
     // Atributos
+    private int id;
     private String nome;
     private List<Exercicio> exercicios;
 
@@ -29,7 +30,22 @@ public class Treino {
     };
 
     // Getters
+    public int getId() {
+        return id;
+    };
     public String getNome() {
         return nome;
     };
+    public List<Exercicio> getExercicios() {
+        return exercicios;
+    };
+
+    // Setters
+    public void setId(int id) {
+        this.id = id;
+    };
+    public void setNome(String nome) {
+        this.nome = nome;
+    };
 }
+

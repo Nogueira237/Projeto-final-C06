@@ -3,6 +3,7 @@ package academia.pessoas;
 public class Funcionario extends Pessoa{
 
     // Atributos
+    private int id;         // para o bd
     private double salario;
 
     // Construtor
@@ -17,12 +18,23 @@ public class Funcionario extends Pessoa{
         System.out.println("Nome: " + getNome() + '\n' + "cpf: " + getCpf() + '\n' + "Idade: " + getIdade() + '\n' + "Salário: " + salario + '\n');
     };
 
-    // Getters e setters
+    // Getters
+
+    public int getId() {
+        return id;
+    };
+
     public double getSalario(){
         return salario;
     };
 
+    // Setters
+
+    public void setId(int id) {
+        this.id = id;
+    };
+
     public void setSalario(double salario) {
         this.salario = salario;
-    }
+    };
 }

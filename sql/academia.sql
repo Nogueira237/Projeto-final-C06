@@ -130,3 +130,11 @@ ALTER TABLE treino ADD UNIQUE (nome);
 -- DELETE FROM pessoa;
 -- DESCRIBE aluno;
 -- DROP TABLE aluno;
+-- DROP DATABASE academia;
+
+SELECT * FROM pessoa;
+SELECT * FROM aluno;
+SELECT * FROM equipamento;
+SELECT * FROM funcionario;
+SELECT * FROM treino;
+SELECT * FROM exercicio;

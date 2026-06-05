@@ -48,31 +48,38 @@ public class FuncionarioDAO extends PessoaDAO {
         }
     }
 
-    public boolean updateFuncionario(int id, Funcionario funcionario){
+    public boolean updateFuncionario(Funcionario funcionario) {
+
         connectToDb();
 
-        String sql = "UPDATE funcionario SET salario = ? WHERE id = ?";
+        try {
 
-        try{
-            pst = connection.prepareStatement(sql);
+            // 1 - atualiza pessoa
+            String sql1 = "UPDATE pessoa SET nome = ?, cpf = ?, idade = ? WHERE id = ?";
+            pst = connection.prepareStatement(sql1);
+
+            pst.setString(1, funcionario.getNome());
+            pst.setString(2, funcionario.getCpf());
+            pst.setInt(3, funcionario.getIdade());
+            pst.setInt(4, funcionario.getId());
+
+            pst.executeUpdate();
+
+            // 2 - atualiza funcionario
+            String sql2 = "UPDATE funcionario SET salario = ? WHERE id = ?";
+            pst = connection.prepareStatement(sql2);
+
             pst.setDouble(1, funcionario.getSalario());
-            pst.setInt(2, id);
-            pst.execute();
+            pst.setInt(2, funcionario.getId());
+
+            pst.executeUpdate();
 
             System.out.println("Funcionário atualizado com sucesso!");
             return true;
 
-        } catch(SQLException e){
+        } catch (SQLException e) {
             System.out.println("Erro ao atualizar funcionário: " + e.getMessage());
             return false;
-
-        } finally{
-            try{
-                if(pst != null) pst.close();
-                if(connection != null) connection.close();
-            } catch(SQLException e){
-                System.out.println("Erro ao fechar recursos: " + e.getMessage());
-            }
         }
     }
 
@@ -107,7 +114,9 @@ public class FuncionarioDAO extends PessoaDAO {
         ArrayList<Funcionario> funcionarios = new ArrayList<>();
         connectToDb();
 
-        String sql = "SELECT * FROM pessoa INNER JOIN funcionario ON pessoa.id = funcionario.id";
+        String sql = "SELECT pessoa.id, nome, cpf, idade, salario\n" +
+                "FROM pessoa\n" +
+                "INNER JOIN funcionario ON pessoa.id = funcionario.id";
 
         try{
             st = connection.createStatement();
@@ -122,6 +131,7 @@ public class FuncionarioDAO extends PessoaDAO {
                         rs.getDouble("salario")
                 );
 
+                funcionario.setId(rs.getInt("id"));
                 funcionarios.add(funcionario);
             }
 
